@@ -101,8 +101,12 @@ function checkScaling() {
     }
 }
 
-let svg_icons = ['./resources/img/iconssmall@2.5x.svg',
-    './resources/img/iconsbig@2.5x.svg', './resources/img/iconshuge@2.5x.svg'];
+let svg_icons = [
+    './resources/img/iconssmall@2.5x.svg',
+    './resources/img/iconsbig@2.5x.svg',
+    './resources/img/iconshuge@2.5x.svg',
+    '../../common/main/resources/img/doc-formats/docformats.svg'
+];
 
 window.Common = {
     Utils: {
